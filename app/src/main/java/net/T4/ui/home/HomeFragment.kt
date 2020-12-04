@@ -13,6 +13,7 @@ import net.T4.data.repository.UserRepository
 import net.T4.data.responses.User
 import net.T4.databinding.FragmentHomeBinding
 import net.T4.ui.base.BaseFragment
+import net.T4.ui.visible
 
 
 class HomeFragment : BaseFragment<HomeViewModel, FragmentHomeBinding, UserRepository>() {

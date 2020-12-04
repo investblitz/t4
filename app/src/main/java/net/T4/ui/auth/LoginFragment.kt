@@ -3,6 +3,7 @@ package net.T4.ui.auth
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.ViewGroup
+import androidx.core.widget.addTextChangedListener
 import androidx.lifecycle.Observer
 import androidx.lifecycle.lifecycleScope
 import kotlinx.coroutines.launch
@@ -11,9 +12,11 @@ import net.T4.data.network.AuthApi
 import net.T4.data.network.Resource
 import net.T4.data.repository.AuthRepository
 import net.T4.ui.base.BaseFragment
+import net.T4.ui.enable
 import net.T4.ui.handleApiError
 import net.T4.ui.home.HomeActivity
 import net.T4.ui.startNewActivity
+import net.T4.ui.visible
 
 class LoginFragment : BaseFragment<AuthViewModel, FragmentLoginBinding, AuthRepository>() {
 

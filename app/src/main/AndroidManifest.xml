@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="net.simplifiedcoding">
+    package="net.T4">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -13,9 +13,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".ui.home.HomeActivity"></activity>
-        <activity android:name=".ui.auth.AuthActivity" />
-        <activity android:name=".MainActivity">
+        <activity android:name="net.T4.ui.home.HomeActivity"></activity>
+        <activity android:name="net.T4.ui.auth.AuthActivity" />
+        <activity android:name="net.T4.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
